@@ -29,11 +29,11 @@
 
 **Пример запуска:**
 
-1. **Создайте файл** с расширением `.bat` (например, `start.bat`).
+1. **Создайте файл** с расширением `.bat` (например, `start.bat`) рядом с файлом **recaf-ru-3-Java11-or-higher.jar**.
 2. **Откройте файл в Блокноте** и вставьте команду:
-
    ```bat
-   "C:\Program Files\Eclipse Adoptium\jdk-11.0.22.7-hotspot\bin\java.exe" -jar recaf-ru-3-Java11-or-higher.jar
+   "C:\Program Files\Eclipse Adoptium\jdk-11.0.22.7-hotspot\bin\java.exe" ^
+    -jar recaf-ru-3-Java11-or-higher.jar
    ```
 3. **Сохраните и запустите `start.bat` двойным кликом**. 
 
@@ -47,3 +47,12 @@
   Запускает Recaf. Убедитесь, что `jar` лежит в той же папке.
 
 Если программа **не запускается** – проверьте, установлена ли у вас **Java 11+**.
+
+Также в `.bat` файле можно добавить `pause` в конце. Это предотвратит автоматическое закрытие консоли и позволит увидеть возможные ошибки.
+Пример:
+   ```bat
+   "C:\Program Files\Eclipse Adoptium\jdk-11.0.22.7-hotspot\bin\java.exe" ^
+    -jar recaf-ru-3-Java11-or-higher.jar
+    pause
+   ```
+Запустите `.bat` снова и прочитайте сообщение об ошибке.
