@@ -2,12 +2,20 @@
 
 ![preview](docs/main.png)
 
-This is the 3rd redesign branch. It is currently a work-in-progress. We would very much appreciate it if you tried it out and gave us feedback.
+Это третья ветка редизайна. Данная программа представляет собой перевод оригинальной версии Recaf без глобальных изменений.
 
-Pre-releases and progress is tracked here: [Recaf 3X: Issues & pre-releases](https://github.com/Col-E/recaf-3x-issues/)
+Оригинальный разработчик давно забросил эту версию программы.
 
-## Usage
+## Использование
 
-To build, run `gradlew clean shadowJar`, which will generate `recaf-ui\build\libs\recaf-$VERSION$-SNAPSHOT-J11-jar-with-dependencies.jar`.
+Для сборки выполните команду `gradlew clean shadowJar`. В результате будет создан файл  
+`recaf-ui\build\libs\recaf-ru-$VERSION$-Java11-or-higher`.
 
-To run from inside an IDE, the main class in the `UI` module is `me.coley.recaf.Main`.
+Для запуска из среды разработки (IDE) используйте главный класс модуля `UI`:  
+`me.coley.recaf.Main`.
+
+Если вы не хотите компилировать вручную, можете скачать уже собранную версию отсюда:  
+[Recaf-RU 3v (релизы)](https://github.com/b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0b0/Recaf-RU-3v/releases)  
+Просто скачайте и запустите.
+
+
