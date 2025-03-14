@@ -1,0 +1,17 @@
+dependencies {
+    compileOnly asm
+    compileOnly slf4j
+    compileOnly logback_classic
+    compileOnly project(':recaf-core')
+
+    // Testing
+    testImplementation project(':recaf-core')
+    testImplementation project(path: ':recaf-core', configuration: 'testSourceOutput')
+    testImplementation junit_api
+    testImplementation junit_params
+    testRuntimeOnly junit_engine
+}
+
+test {
+    useJUnitPlatform()
+}

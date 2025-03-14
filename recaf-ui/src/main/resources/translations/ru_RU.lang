@@ -1,0 +1,462 @@
+## Language name
+lang.name=Russian
+
+##### Общие элементы
+## Основное и контекстное меню
+menu.association.override=Переопределить язык
+menu.association.none=Ассоциации не настроены
+menu.config=Настройки
+menu.file=Файл
+menu.file.attach=Подключиться к удалённому
+menu.file.addtoworkspace=Добавить в рабочее пространство
+menu.file.openworkspace=Открыть рабочее пространство
+menu.file.exportapp=Экспортировать приложение
+menu.file.exportworkspace=Экспортировать конфигурацию рабочего пространства
+menu.file.modifications=Просмотр изменений
+menu.file.recent=Недавние
+menu.file.close=Закрыть
+menu.file.quit=Выйти
+menu.goto.class=Перейти к классу
+menu.goto.field=Перейти к полю
+menu.goto.method=Перейти к методу
+menu.goto.instruction=Перейти к инструкции
+menu.goto.file=Перейти к файлу
+menu.goto.label=Перейти к метке
+menu.edit.assemble.class=Редактировать класс
+menu.edit.assemble.field=Редактировать поле
+menu.edit.assemble.method=Редактировать метод
+menu.edit.remove=Удалить
+menu.edit.copy=Копировать
+menu.edit.delete=Удалить
+menu.help=Помощь
+menu.help.discord=Discord
+menu.help.docs=Онлайн-документация
+menu.help.github=GitHub
+menu.help.issues=Трекер проблем
+menu.help.sysinfo=Системная информация
+menu.refactor=Рефакторинг
+menu.refactor.move=Переместить
+menu.refactor.rename=Переименовать
+menu.search=Поиск
+menu.search.string=Строки
+menu.search.number=Числа
+menu.search.references=Ссылки
+menu.search.declarations=Объявления
+menu.search.noresults=Нет результатов
+menu.log.clear=Очистить
+menu.log.export=Экспортировать
+menu.mappings=Отображения
+menu.mappings.apply=Применить
+menu.mappings.export=Экспортировать
+menu.mappings.generate=Генерировать
+menu.mappings.view=Текущие отображения
+menu.scripting=Скрипты
+menu.scripting.list=Скрипты
+menu.scripting.none-found=Скрипты не найдены
+menu.scripting.manage=Управление скриптами
+menu.scripting.new=Новый скрипт
+menu.scripting.edit=Редактировать
+menu.scripting.browse=Обзор скриптов
+menu.scripting.refresh=Обновить скрипты
+menu.scripting.save=Сохранить скрипт
+menu.scripting.execute=Выполнить
+menu.scripting.editor=Редактор скриптов
+menu.scripting.author=Автор
+menu.scripting.version=Версия
+menu.view=Вид
+menu.view.hierarchy=Иерархия классов
+menu.view.hierarchy.children=Дочерние элементы
+menu.view.hierarchy.parents=Родительские элементы
+menu.view.methodcfg=Граф управления потоком
+menu.tab.close=Закрыть
+menu.tab.closeothers=Закрыть остальные
+menu.tab.closeall=Закрыть все
+menu.tab.copypath=Копировать путь
+menu.image.resetscale=Сбросить масштаб
+menu.image.center=Центрировать изображение
+menu.hex.copyas=Копировать как...
+menu.mode=Изменить вид
+menu.mode.class.auto=Автоматически
+menu.mode.class.decompile=Декомпилировать
+menu.mode.file.auto=Автоматически
+menu.mode.file.text=Текст
+menu.mode.file.hex=Hex
+menu.mode.diff.decompile=Декомпилировать
+menu.mode.diff.disassemble=Дизассемблировать
+menu.vm=Виртуализация
+menu.vm.optimize=Оптимизировать
+menu.vm.run=Запустить
+menu.plugin=Плагины
+menu.plugin.manage=Управление плагинами
+menu.plugin.installed=Установленные
+menu.plugin.remote=Удалённые
+menu.plugin.browse=Обзор плагинов
+menu.plugin.enabled=Включено
+menu.plugin.uninstall=Удалить
+menu.plugin.uninstall.warning=Вы уверены, что хотите удалить этот плагин?
+
+##### Тексты диалогов
+dialog.cancel=Отмена
+dialog.close=Закрыть
+dialog.confirm=Подтвердить
+dialog.finish=Завершить
+dialog.next=Далее
+dialog.previous=Назад
+dialog.dismiss=Отклонить
+dialog.configure=Настроить
+dialog.warning=Предупреждение
+dialog.restart=Для изменения этого параметра рекомендуется перезапуск.\nВы уверены, что хотите применить?
+dialog.unknownextension=Неизвестное расширение файла. Хотите настроить ассоциацию с языком?
+
+## Выбор файлов
+dialog.file.open=Открыть
+dialog.file.export=Экспортировать
+dialog.filefilter.any=Любой тип
+dialog.filefilter.mapping=Отображения
+dialog.filefilter.input=Приложения
+dialog.filefilter.workspace=Рабочие пространства
+
+## Перетаскивание файлов
+dialog.title.create-workspace=Создать рабочее пространство
+dialog.title.update-workspace=Обработка входных данных рабочего пространства
+dialog.title.close-workspace=Закрыть рабочее пространство?
+dialog.option.create-workspace=Создать новое рабочее пространство
+dialog.option.update-workspace=Добавить в рабочее пространство
+
+## Копирование класса/файла
+dialog.title.copy-class=Копировать класс
+dialog.title.copy-directory=Копировать каталог
+dialog.title.copy-field=Копировать поле
+dialog.title.copy-file=Копировать файл
+dialog.title.copy-method=Копировать метод
+dialog.header.copy-class=Укажите новое имя для копируемого класса.
+dialog.header.copy-directory=Укажите новое имя для копируемого каталога.
+dialog.header.copy-field=Укажите новое имя для копируемого поля.
+dialog.header.copy-file=Укажите новое имя для копируемого файла.
+dialog.header.copy-method=Укажите новое имя для копируемого метода.
+
+## Удаление класса/файла
+dialog.title.delete-class=Удалить класс
+dialog.title.delete-directory=Удалить каталог
+dialog.title.delete-field=Удалить поле
+dialog.title.delete-file=Удалить файл
+dialog.title.delete-method=Удалить метод
+dialog.title.delete-package=Удалить пакет
+dialog.title.delete-resource=Удалить ресурс
+dialog.header.delete-class=Вы уверены, что хотите удалить: %s?
+dialog.header.delete-directory=Вы уверены, что хотите удалить: %s?
+dialog.header.delete-field=Вы уверены, что хотите удалить: %s?
+dialog.header.delete-file=Вы уверены, что хотите удалить: %s?
+dialog.header.delete-method=Вы уверены, что хотите удалить: %s?
+dialog.header.delete-package=Вы уверены, что хотите удалить: %s?
+dialog.header.delete-resource=Вы уверены, что хотите удалить: %s?
+
+## Переименование класса/файла
+dialog.title.rename-class=Переименовать класс
+dialog.title.rename-class-warning=Предупреждение
+dialog.title.rename-directory=Переименовать каталог
+dialog.title.rename-field=Переименовать поле
+dialog.title.rename-file=Переименовать файл
+dialog.title.rename-file-warning=Предупреждение
+dialog.title.rename-method=Переименовать метод
+dialog.title.rename-package=Переименовать пакет
+dialog.header.rename-class=Укажите новое имя для класса. Это может затронуть несколько файлов.
+dialog.header.rename-class-warning=Выбранное имя класса уже используется. Вы уверены, что хотите переименовать класс?
+dialog.header.rename-directory=Укажите новое имя для каталога.
+dialog.header.rename-field=Укажите новое имя для поля.
+dialog.header.rename-file=Укажите новое имя для файла.
+dialog.header.rename-file-warning=Файл уже существует. Вы хотите его перезаписать?
+dialog.header.rename-method=Укажите новое имя для метода.
+dialog.header.rename-package=Укажите новое имя для пакета.
+
+## Перемещение класса/файла
+dialog.title.move-class=Переместить класс
+dialog.title.move-directory=Переместить каталог
+dialog.title.move-file=Переместить файл
+dialog.title.move-package=Переместить пакет
+dialog.header.move-class=Переместите класс в новый пакет.
+dialog.header.move-directory=Переместите каталог в новый родительский каталог.
+dialog.header.move-file=Переместите файл в новый каталог.
+dialog.header.move-package=Переместите пакет в новый родительский пакет.
+
+## Действия с виртуальной машиной
+dialog.title.vm-invoke-args=Виртуализировать вызов метода
+dialog.title.vm-peephole-invoke-args=Оптимизация виртуализированного кода
+dialog.vm.execute=Выполнить
+dialog.vm.optimize=Оптимизировать
+dialog.vm.create-dummy=Использовать заглушку
+dialog.vm.create-null=Использовать null
+
+## Диалоги Hex
+dialog.hex.title.insertcount=Вставка
+dialog.hex.header.insertcount=Сколько байтов вставить?
+
+# Диалог преобразования чисел
+dialog.conv.title.literal=Числовой литерал
+dialog.conv.title.expression=Числовое выражение
+
+## Быстрая навигация
+dialog.quicknav=Быстрая навигация
+
+## Мастер настройки
+wizard.chooseaction=Выберите действие
+wizard.selectprimary=Выберите основной ресурс
+wizard.currentworkspace=Текущее рабочее пространство
+
+##### Панели
+## Приветствие
+welcome.title=Добро пожаловать
+welcome.discord.title=Присоединяйтесь к Discord
+welcome.discord.description=У Recaf есть группа в Discord для обсуждений и программирования
+welcome.documentation.title=Документация
+welcome.documentation.description=Прочитайте документацию, чтобы узнать о возможностях Recaf
+welcome.github.title=Recaf на GitHub
+welcome.github.description=Посетите страницу проекта на GitHub: Исходный код, проблемы и многое другое
+
+## Рабочее пространство
+workspace.title=Рабочее пространство
+
+## История изменений
+modifications.none=Нет истории изменений для элемента
+modifications.title=Изменения
+
+## Область Java
+java.decompiling=Декомпиляция класса...
+java.unparsable=JavaParser не смог обработать исходный код, доступны только действия для вкладки "Поля и методы"
+
+## Контур
+outline.title=Поля и методы
+
+## Иерархия
+hierarchy.title=Наследование
+hierarchy.children=Дочерние элементы
+hierarchy.parents=Родительские элементы
+
+## Логирование
+logging.title=Логирование
+
+## Ассемблер
+assembler.title=Ассемблер
+assembler.analysis.title=Переменные и стек
+assembler.analysis.stack=Стек
+assembler.analysis.name-column=Имя
+assembler.analysis.value-column=Значение
+assembler.playground.title=Java в байт-код
+assembler.playground.comment=Здесь можно написать Java-код, который будет переведён в байт-код
+assembler.vartable.title=Переменные
+assembler.vartable.empty=<Требуется хотя бы одна компиляция>
+assembler.suggestions.none=Нет предложений
+
+## Поиск
+search.run=Поиск
+search.results=Результаты
+search.text=Текстовое содержимое
+search.textmode=Режим поиска текста
+search.number=Числовое значение
+search.numbermode=Режим поиска чисел
+search.refowner=Владелец элемента
+search.refname=Имя элемента
+search.refdesc=Тип элемента
+
+## Помощь
+help.system=Система
+help.system.sub=Информация об ОС
+help.java=Java
+help.java.sub=Информация о JVM
+help.javafx=JavaFX
+help.javafx.sub=Информация о графическом интерфейсе JavaFX
+help.recaf=Recaf
+help.recaf.sub=Информация о Recaf
+help.copy=Скопировать информацию в буфер обмена
+help.opendir=Открыть каталог Recaf
+
+## Генератор отображений
+mapgen.genimpl=Правила именования
+mapgen.filters=Фильтры
+mapgen.filters.add=Добавить фильтр
+mapgen.filters.delete=Удалить выбранное
+mapgen.newfilter.excludealreadymapped=Исключить уже сопоставленные
+mapgen.newfilter.modifierexclude=Исключить модификаторы
+mapgen.newfilter.modifierexcludeclass=Исключить модификаторы у классов
+mapgen.newfilter.modifierexcludefield=Исключить модификаторы у полей
+mapgen.newfilter.modifierexcludemethod=Исключить модификаторы у методов
+mapgen.newfilter.modifierinclude=Включить модификаторы
+mapgen.newfilter.modifierincludeclass=Включить модификаторы у классов
+mapgen.newfilter.modifierincludefield=Включить модификаторы у полей
+mapgen.newfilter.modifierincludemethod=Включить модификаторы у методов
+mapgen.newfilter.includewhitespacenames=Включить имена с недопустимыми пробелами
+mapgen.newfilter.includenonasciinames=Включить имена с не-ASCII символами
+mapgen.newfilter.pathexclude=Черный список путей
+mapgen.newfilter.pathinclude=Белый список путей
+mapgen.title.newfilter=Новый фильтр
+mapgen.header.newfilter=Введите содержимое фильтра
+mapgen.copy=Скопировать в буфер обмена
+mapgen.apply=Применить
+
+##### Дерево
+tree.classes=Классы
+tree.files=Файлы
+tree.prompt=Перетащите файлы сюда
+tree.hidelibs=Скрыть библиотеки
+tree.casesensitive=Чувствительность к регистру
+
+##### Настройки
+conf.display=Оформление
+conf.display.general=Общие
+conf.display.general.flashopentabs=Подсвечивать открытые вкладки при повторном фокусе
+conf.display.general.language=Язык
+conf.display.tree=Настройки отображения дерева
+conf.display.tree.maxtreedirectorydepth=Максимальная глубина дерева каталогов
+conf.display.tree.maxtreetextlength=Максимальная длина текста элемента
+conf.display.workspace=Поведение рабочего пространства
+conf.display.workspace.showfilterbuttons=Показывать кнопки расширенного фильтра
+conf.display.workspace.onfiledrop=Действие при перетаскивании файла
+conf.display.workspace.onfiledrop.choose=Предлагать выбор
+conf.display.workspace.onfiledrop.createnew=Создать новое рабочее пространство
+conf.display.workspace.onfiledrop.addlibrary=Добавить как библиотеку
+conf.display.workspace.promptcloseworkspace=Запрашивать подтверждение при закрытии рабочего пространства
+conf.display.workspace.promptdeleteitem=Запрашивать подтверждение при удалении элементов
+conf.display.workspace.showselectionnavbar=Показывать панель навигации выбора
+conf.display.text=Текст
+conf.display.text.fontsize=Размер шрифта
+conf.editor=Компоненты редактора
+conf.editor.general=Общие
+conf.editor.general.classmode=Режим просмотра классов по умолчанию
+conf.editor.general.filemode=Режим просмотра файлов по умолчанию
+conf.editor.general.errorindicatorpos=Позиция индикатора ошибок
+conf.editor.assoc=Ассоциации расширений файлов
+conf.editor.assoc.fileextassociations=Ассоциации
+conf.editor.outline=Структура класса
+conf.editor.outline.showoutlinedtypes=Показывать типы элементов
+conf.editor.outline.showoutlinedsynths=Показывать синтетические (сгенерированные компилятором) элементы
+conf.editor.outline.showoutlinedvisibility=Фильтрация по видимости элементов
+conf.editor.outline.showoutlinedmembertype=Фильтрация по типу элементов
+conf.editor.outline.outlinedvisibilityiconposition=Позиция иконки видимости
+conf.editor.outline.sortalphabetically=Сортировать по алфавиту
+conf.editor.outline.sortbyvisibility=Сортировать по видимости
+conf.editor.outline.filter.casesensitive=Учитывать регистр
+conf.editor.outline.filter.prompt=Фильтр: имя поля/метода...
+conf.editor.text=Текстовый редактор
+conf.editor.text.showbracketfolds=Показывать свёртку скобок
+conf.editor.hex=Hex-редактор
+conf.editor.hex.classhints=Показывать подсказки о классах
+conf.editor.hex.hexcolumns=Количество колонок
+conf.editor.hex.highlightcurrent=Подсвечивать текущий выбор
+conf.editor.diff=Редактор различий
+conf.editor.diff.diff-view-mode=Режим просмотра различий в классах
+
+conf.binding=Горячие клавиши
+conf.binding.navigation=Навигация
+conf.binding.navigation.closetab=Закрыть вкладку
+conf.binding.navigation.find=Найти
+conf.binding.navigation.fullscreen=Полноэкранный режим
+conf.binding.navigation.quicknav=Быстрая навигация
+conf.binding.edit=Редактирование
+conf.binding.edit.save=Сохранить изменения
+conf.binding.edit.undo=Отменить изменение
+conf.binding.inputprompt.initial=<ожидание>
+conf.binding.inputprompt.finish=<ENTER для завершения>
+conf.binding.code=Работа с кодом
+conf.binding.code.gotodef=Перейти к определению
+conf.binding.code.rename=Переименовать выбранное
+conf.binding.code.searchref=Поиск ссылок
+conf.binding.code.suggest=Показать предложения
+conf.binding.appearance=Внешний вид
+conf.binding.appearance.fontsize.up=Увеличить размер шрифта
+conf.binding.appearance.fontsize.down=Уменьшить размер шрифта
+
+conf.assembler=Ассемблер
+conf.assembler.build=Сборка
+conf.assembler.build.delay=Задержка перед обновлением байт-кода
+conf.assembler.format=Формат
+conf.assembler.format.prefix=Использовать префикс точки для ключевых слов
+conf.assembler.parse=Разбор
+conf.assembler.parse.recover=Попытка восстановления ошибок
+conf.assembler.validation=Проверка
+conf.assembler.validation.ast=Включить проверку AST
+conf.assembler.validation.bytecode=Включить анализ байт-кода
+conf.assembler.debug=Отладка
+conf.assembler.debug.ast-debug=Показать отладочную информацию AST
+
+conf.compiler=Компилятор
+conf.compiler.general=Общие
+conf.compiler.general.impl=Реализация компилятора
+conf.compiler.general.phantoms=Генерировать отсутствующие классы
+conf.compiler.debug=Отладка
+conf.compiler.debug.vars=Включить отладочные символы
+conf.compiler.debug.lines=Включить номера строк
+conf.compiler.debug.sourcefile=Включить исходный файл
+
+conf.decompiler=Декомпиляция
+conf.decompiler.general=Общие
+conf.decompiler.general.impl=Реализация декомпилятора
+conf.decompiler.general.enabletimeout=Включить таймаут декомпилятора
+conf.decompiler.general.timeout=Таймаут в миллисекундах
+conf.decompiler.filter=Фильтрация
+conf.decompiler.filter.escapeunicode=Экранировать юникод
+conf.decompiler.filter.generics=Удалять аргументы типов
+conf.decompiler.filter.vars=Удалять информацию о переменных
+conf.decompiler.filter.synthetics=Удалять синтетические флаги
+conf.decompiler.classfile=Файл класса
+conf.decompiler.classfile.maxouterdepth=Максимальная глубина внешних классов в цепочке навигации\n(-1: отключить проверку, 0: отключить навигацию)
+
+conf.dialog=Диалоги
+conf.dialog.fileprompt=Запросы файлов
+conf.dialog.fileprompt.load=Последнее место загрузки
+conf.dialog.fileprompt.export=Последнее место экспорта
+conf.dialog.fileprompt.loadmap=Последнее место загрузки отображений
+conf.dialog.fileprompt.exportmap=Последнее место экспорта отображений
+
+conf.export=Экспорт
+conf.export.general=Общие
+conf.export.general.shadeLibs=Включить библиотеки в выходной файл
+conf.export.general.compress=Использовать сжатие в архивах
+
+conf.plugin=Плагины
+conf.plugin.general=Общие
+conf.plugin.general.enabled=Включено
+conf.plugin.general.remote=Удалённый
+conf.plugin.general.remotetime=Кэшировать метку времени
+
+conf.recent=Недавние
+conf.recent.max=Максимальное количество отслеживаемых элементов
+conf.recent.workspaces=Недавние рабочие пространства
+
+conf.ssvm=SSVM
+conf.ssvm.access=Доступ к файловой системе
+conf.ssvm.access.read=Разрешить чтение
+conf.ssvm.access.write=Разрешить запись
+conf.ssvm.access.read.warn=Включение этой опции позволит SSVM читать файлы на вашем компьютере.\nБудьте осторожны при активации.
+conf.ssvm.access.write.warn=Включение этой опции позволит SSVM записывать файлы на ваш компьютер.\nБудьте ОЧЕНЬ осторожны при активации.
+conf.ssvm.general=Общие
+conf.ssvm.general.active=Инициализировать SSVM при загрузке рабочих пространств
+conf.ssvm.remote=Удалённая ВМ
+conf.ssvm.remote.active=Активно
+conf.ssvm.remote.path=Путь к исполняемому файлу ВМ
+conf.undefined=Неопределено
+
+misc.all=Все
+misc.none=Нет
+misc.member.field=Поле
+misc.member.method=Метод
+misc.member.field_n_method=Поле и метод
+misc.member.inner_class=Вложенный класс
+misc.member.inner_interface=Вложенный интерфейс
+misc.member.inner_enum=Вложенный enum
+misc.member.inner_annotation=Вложенная аннотация
+misc.accessflag.visibility.public=Публичный
+misc.accessflag.visibility.protected=Защищённый
+misc.accessflag.visibility.private=Приватный
+misc.accessflag.visibility.package=Пакетный
+misc.direction.up=Вверх
+misc.direction.down=Вниз
+misc.direction.left=Влево
+misc.direction.right=Вправо
+misc.direction.top=Верх
+misc.direction.bottom=Низ
+misc.position.top=Верх
+misc.position.bottom=Низ
+misc.position.left=Лево
+misc.position.right=Право
+misc.position.center=Центр
+misc.position.middle=Середина
